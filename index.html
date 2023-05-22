@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>StyleHive</title>
+</head>
+<body class="bg-slate-100">
+    <!-- Navbar -->
+    <nav class="container relative p-6 mx-auto">
+        <div class="flex flex-row items-center justify-between">
+            <!-- Logo -->
+            <div>
+                <img src="./img/Group 1logo.png" class="w-40 md:w-225" alt="">
+            </div>
+            <!-- Menu Items -->
+            <div class="hidden space-x-6 md:flex">
+                <a href="" class="hover:font-bold text-ash">Categories</a>
+                <a href="" class="text-ash hover:font-bold">Home</a>
+                <a href="" class="text-ash hover:font-bold">Shop</a>
+            </div>
+            <!-- Text box and corner buttons -->
+            <div class="flex flex-row items-center justify-between space-x-6">
+                <form action="">
+                        <input type="text" class="flex-1 hidden px-10 py-2 rounded-full md:block focus:outline-none" style="background-color: #EAEAEA;" placeholder="Search">
+                </form>
+                <div class="">
+                    <img src="./img/avatar.png" class="" alt="">
+                </div>
+                <div>
+                    <img src="./img/cart.png" class="w-[56px]" alt="">
+                </div>
+                <!-- Hamburger Icon -->
+
+                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+
+                </button>
+            </div>
+    </div>
+    <div class="md:hidden">
+        <div id="menu" class="absolute z-10 flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm-:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+            <a href="#">Pricing</a>
+            <a href="#">About Us</a>
+            <a href="#">Product</a>
+            <a href="#">Careers</a>
+            <a href="#">Community</a>
+
+        </div>
+
+    </div>
+    </nav>
+
+
+    <!-- items section -->
+
+    <section>
+        <div class="container flex flex-col mx-auto mt-10 space-x-0 md:flex-row">
+            <!-- title and picture -->
+            <div class="flex flex-col mx-3 space-y-10 md:w-1/2">
+                <div>
+                    <p class="text-ash">Home > <span>Nike Air Max 90 SE</span></p>
+                </div>
+                <div class="relative">
+                    <div class="absolute flex items-center justify-between w-full h-full px-4">
+                        <button class="p-2 font-bold text-white rounded-full bg-ashGrad hover:bg-blue-700 drop-shadow-md">
+                            <img src="./img/arrowsmallright.png" alt="">    
+                        </button>
+                        <button class="p-2 font-bold text-white rounded-full bg-ashGrad hover:bg-blue-700">
+                            <img src="./img/arrowsmallright2.png" alt="">    
+                        </button>
+                    </div>
+                    <img src="./img/shoe.png" class="w-full" alt="">
+                </div>
+            </div>
+            <!-- details section -->
+
+            <div class="flex flex-col space-y-4 md:w-1/2">
+                <div class="mx-3">
+                    <p>Nike</p>
+                    <h2 class="text-4xl font-bold">Nike Air Max 90 SE</h2>
+                    <h3 class="text-4xl font-bold">$119.97</h3>
+
+                </div>
+                <div class="flex flex-col mx-3 space-y-4">
+                    <div class="flex flex-col justify-between space-x-3 space-y-3 md:space-y-0 md:flex-row">
+                        <div class="flex flex-col justify-between space-y-4 md:w-1/2">
+                            <p>Size</p>
+                            <div>
+                                <select class="block w-1/2 px-6 py-2 bg-transparent border-2 rounded-full outline-none border-ash" name="" id="">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="flex flex-col space-y-4 md:w-1/2">
+                            <p>Colors</p>
+                            <div class="flex flex-row space-x-2">
+                                <div class="w-[48px] h-[48px] bg-yellow-300 border-2 border-white rounded-full hover:cursor-pointer"></div>
+                                <div class="w-[48px] h-[48px] bg-pink-300 border-2 border-white rounded-full hover:cursor-pointer"></div> 
+                                <div class="w-[48px] h-[48px] bg-fuchsia-300 border-2 border-white rounded-full hover:cursor-pointer"></div>
+                                <div class="w-[48px] h-[48px] bg-cyan-300 border-2 border-white rounded-full hover:cursor-pointer"></div>
+
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-baseline justify-between space-y-4 md:space-x-3 md:flex-row">
+                        <div class="flex flex-col justify-between w-1/2 space-x-2 md:w-1/4">
+                            <select class="block w-full px-6 py-2 bg-transparent border-2 rounded-full outline-none border-ash" name="" id="">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </div>
+                        <div class="w-full md:w-3/4">
+                            <button class="w-full px-6 py-2 text-white rounded-full bg-darkPurple">Add to Cart <span><img class="inline" src="./img/cart2.png" alt=""></span></button>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col">
+                        <div>
+                            <p>
+                                Rating
+                            </p>
+
+                                <div class="flex flex-row mt-5 space-x-2">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+
+                                </div>
+                        </div>
+
+                    <div class="mt-3 accordion">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="flex items-center justify-between w-full px-4 py-2 font-bold text-left bg-transparent border-b-2 border-b-gray-300 accordion-button hover:bg-gray-300" type="button" onclick="toggleAccordion(1)">
+                              Description
+                              <svg class="w-4 h-4 ml-2 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M6 6a1 1 0 0 1 1.707-.707l6 6a1 1 0 0 1-1.414 1.414L7 7.414 6.354 8.061A1 1 0 0 1 5 6.707V6a1 1 0 0 1 1-1z"/>
+                              </svg>
+                            </button>
+                          </h2>
+                          <div class="px-4 py-2 accordion-content" id="accordion-content-1">
+                            <p>The 90s were a turning point in culture—art, music, fashion and sneakers. </p>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="flex items-center justify-between w-full px-4 py-2 font-bold text-left bg-transparent border-b-2 border-b-gray-300 accordion-button hover:bg-gray-300" type="button" onclick="toggleAccordion(2)">
+                                Shipping
+                              <svg class="w-4 h-4 ml-2 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M6 6a1 1 0 0 1 1.707-.707l6 6a1 1 0 0 1-1.414 1.414L7 7.414 6.354 8.061A1 1 0 0 1 5 6.707V6a1 1 0 0 1 1-1z"/>
+                              </svg>
+                            </button>
+                          </h2>
+                          <div class="hidden px-4 py-2 accordion-content" id="accordion-content-2">
+                            <p>The 90s were a turning point in culture—art, music, fashion and sneakers. </p>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="flex items-center justify-between w-full px-4 py-2 font-bold text-left bg-transparent border-b-2 border-b-gray-300 accordion-button hover:bg-gray-300" type="button" onclick="toggleAccordion(3)">
+                                    Return & Refund Policy
+                                <svg class="w-4 h-4 ml-2 transition-transform transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                  <path fill-rule="evenodd" d="M6 6a1 1 0 0 1 1.707-.707l6 6a1 1 0 0 1-1.414 1.414L7 7.414 6.354 8.061A1 1 0 0 1 5 6.707V6a1 1 0 0 1 1-1z"/>
+                                </svg>
+                              </button>
+                            </h2>
+                            <div class="hidden px-4 py-2 accordion-content" id="accordion-content-3">
+                              <p>The 90s were a turning point in culture—art, music, fashion and sneakers. </p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                      
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- carousel -->
+
+    <section id="carousel">
+        <div class="container flex flex-col mx-auto mt-10 space-y-4">
+            <div class="flex flex-row justify-between mx-3">
+                    <p class="text-2xl font-bold md:text-4xl">You Might Also Like</p>
+                    <div>
+                        <button class="p-2 font-bold text-white rounded-full bg-ashGrad hover:bg-blue-700 drop-shadow-md">
+                            <img src="./img/arrowsmallright.png" alt="">    
+                        </button>
+                        <button class="p-2 font-bold text-white rounded-full bg-ashGrad hover:bg-blue-700">
+                            <img src="./img/arrowsmallright2.png" alt="">    
+                        </button>
+                    </div>
+                    
+            </div>
+            
+                <div class="mx-3 space-x-6 overflow-x-scroll snap-x-mandatory" style="display: -webkit-inline-box;">
+                    <!-- Picture 1 -->
+                    <div class="relative">
+                        <button class="absolute right-0 p-2 mt-8 mr-8 font-bold text-white rounded-full bg-ashGrad hover:bg-blue-700">
+                            <img src="./img/heart.png" alt="">    
+                        </button>
+
+                        <img src="./img/bag.png" class="w-full" alt="">
+                        <div class="absolute bottom-0 left-0 flex flex-col h-auto min-w-full p-4 space-y-2 bg-white rounded-b-lg">
+                            <div class="">
+                                <p class="font-bold">Nike Air Hybrid 2</p>
+                            </div>
+                            <div class="flex flex-row justify-between">
+                                <div class="flex flex-row">
+                                    <div class="w-[28px] h-[28px] bg-yellow-300 border-2  rounded-full outline-none "></div>
+                                    <div class="w-[28px] h-[28px] -ml-1 bg-pink-300 border-2 outline-none rounded-full "></div> 
+                                    <div class="w-[28px] h-[28px] -ml-1 bg-fuchsia-300 border-2 outline-none rounded-full "></div>
+    
+                                </div> 
+                                
+                                <div class="font-bold">$280</div>
+
+                            </div>
+                            <div class="flex flex-row justify-between">
+                                <div class="flex flex-row space-x-2">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+
+                                </div>                                
+                                <div class="font-bold">....</div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Picture 2 -->
+                    <div class="relative">
+                        <button class="absolute right-0 p-2 mt-8 mr-8 font-bold text-white rounded-full bg-ashGrad hover:bg-blue-700">
+                            <img src="./img/heart.png" alt="">    
+                        </button>
+                        <img src="./img/cap.png" class="w-full" alt="">
+                        <div class="absolute bottom-0 left-0 flex flex-col h-auto min-w-full p-4 space-y-2 bg-white rounded-b-lg">
+                            <div class="">
+                                <p class="font-bold">Nike Dri-FIT ADV AeroBill</p>
+                            </div>
+                            <div class="flex flex-row justify-between">
+                                <div class="flex flex-row">
+                                    <div class="w-[28px] h-[28px] bg-yellow-300 border-2  rounded-full outline-none "></div>
+                                    <div class="w-[28px] h-[28px] -ml-1 bg-pink-300 border-2 outline-none rounded-full "></div> 
+                                    <div class="w-[28px] h-[28px] -ml-1 bg-fuchsia-300 border-2 outline-none rounded-full "></div>
+                                    <div class="w-[28px] h-[28px] -ml-1 bg-cyan-300 border-2 outline-none  rounded-full "></div>
+    
+                                </div>                                   <div class="font-bold">$280</div>
+
+                            </div>
+                            <div class="flex flex-row justify-between">
+                                <div class="flex flex-row space-x-2">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+
+                                </div>                                 
+                                <div class="font-bold">....</div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Picture 3 -->
+                    <div class="relative">
+                        <button class="absolute right-0 p-2 mt-8 mr-8 font-bold text-white rounded-full bg-ashGrad hover:bg-blue-700">
+                            <img src="./img/heart.png" alt="">    
+                        </button>
+                        <img src="./img/shoe-2.png" class="w-full" alt="">
+                        <div class="absolute bottom-0 left-0 flex flex-col h-auto min-w-full p-4 space-y-2 bg-white rounded-b-lg">
+                            <div class="">
+                                <p class="font-bold">Riaze Prowl Palm Wome...</p>
+                            </div>
+                            <div class="flex flex-row justify-between">
+                                <div class="flex flex-row">
+                                    <div class="w-[28px] h-[28px] bg-yellow-300 border-2  rounded-full outline-none "></div>
+                                    <div class="w-[28px] h-[28px] -ml-1 bg-pink-300 border-2 outline-none rounded-full "></div> 
+                                
+    
+                                </div>                                 <div class="font-bold">$280</div>
+
+                            </div>
+                            <div class="flex flex-row justify-between">
+                                <div class="flex flex-row space-x-2">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+
+                                </div>                                
+                                <div class="font-bold">....</div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Picture 4 -->
+                    <div class="relative">
+                        <button class="absolute right-0 p-2 mt-8 mr-8 font-bold text-white rounded-full bg-ashGrad hover:bg-blue-700">
+                            <img src="./img/heart.png" alt="">    
+                        </button>
+                        <img src="./img/trouser.png" class="w-full" alt="">
+                        <div class="absolute bottom-0 left-0 flex flex-col h-auto min-w-full p-4 space-y-2 bg-white rounded-b-lg">
+                            <div class="">
+                                <p class="font-bold">Nike Free Metcon 4</p>
+                            </div>
+                            <div class="flex flex-row justify-between">
+                                <div class="flex flex-row">
+                                    <div class="w-[28px] h-[28px] bg-yellow-300 border-2  rounded-full outline-none "></div>
+                                    <div class="w-[28px] h-[28px] -ml-1 bg-pink-300 border-2 outline-none rounded-full "></div> 
+                                    <div class="w-[28px] h-[28px] -ml-1 bg-fuchsia-300 border-2 outline-none rounded-full "></div>
+                                    <div class="w-[28px] h-[28px] -ml-1 bg-cyan-300 border-2 outline-none  rounded-full "></div>
+    
+                                </div>                                <div class="font-bold">$280</div>
+
+                            </div>
+                            <div class="flex flex-row justify-between">
+                                <div class="flex flex-row space-x-2">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+
+                                </div> 
+                                <div class="font-bold">....</div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Picture 5 -->
+                    <div class="relative">
+                        <button class="absolute right-0 p-2 mt-8 mr-8 font-bold text-white rounded-full bg-ashGrad hover:bg-blue-700">
+                            <img src="./img/heart.png" alt="">    
+                        </button>
+                        <img src="./img/watch.png" class="w-full" alt="">
+                        <div class="absolute bottom-0 left-0 flex flex-col h-auto min-w-full p-4 space-y-2 bg-white rounded-b-lg">
+                            <div class="">
+                                <p class="font-bold">Tambour Street Diver</p>
+                            </div>
+                            <div class="flex flex-row justify-between">
+                                <div class="flex flex-row">
+                                    
+                                    <div class="w-[28px] h-[28px] -ml-1 bg-fuchsia-300 border-2 outline-none rounded-full "></div>
+                                    <div class="w-[28px] h-[28px] -ml-1 bg-cyan-300 border-2 outline-none  rounded-full "></div>
+    
+                                </div>                                <div class="font-bold">$280</div>
+
+                            </div>
+                            <div class="flex flex-row justify-between">
+                                <div class="flex flex-row space-x-2">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+
+                                </div>
+                                
+                                <div class="font-bold">....</div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Picture 6 -->
+                    <div class="relative">
+                        <button class="absolute right-0 p-2 mt-8 mr-8 font-bold text-white rounded-full bg-ashGrad hover:bg-blue-700">
+                            <img src="./img/heart.png" alt="">    
+                        </button>
+                        <img src="./img/shirt.png" class="w-full" alt="">
+                        <div class="absolute bottom-0 left-0 flex flex-col h-auto min-w-full p-4 space-y-2 bg-white rounded-b-lg">
+                            <div class="">
+                                <p class="font-bold">PUMA x TMC Everyday...</p>
+                            </div>
+                            <div class="flex flex-row justify-between">
+                                <div class="flex flex-row">
+                                    <div class="w-[28px] h-[28px] bg-yellow-300 border-2  rounded-full outline-none "></div>
+                                    
+    
+                                </div>                                 <div class="font-bold">$280</div>
+
+                            </div>
+                            <div class="flex flex-row justify-between">
+                                <div class="flex flex-row space-x-2">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+                                    <img src="./img/star1.png" alt="">
+
+                                </div>
+                                <div class="font-bold">....</div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    
+            </div>
+            
+        </div>
+
+    </section>
+
+    <footer class="mt-10 bg-lightPurple">
+        <div class="container flex flex-col p-5 mx-auto md:flex-row">
+            <div class="flex flex-col space-y-4 md:space-y-0 md:w-1/2 md:flex-row">
+                <div class="flex flex-col space-y-2 text-white md:pr-20">
+                    <p class="text-xl font-bold text-white">Categories</p>
+                    <a href="#">Shoes</a>
+                    <a href="#">Bags</a>
+                    <a href="#">Casual Wears</a>
+                    <a href="#">Wrist Watches</a>
+                    <a href="#">Jewelry</a>
+                    <a href="#">All Category</a>
+
+                </div>
+                <div class="flex flex-col space-y-2 text-white">
+                    <p class="text-xl font-bold text-white">Contact</p>
+                    <a href="mailto:Stylehive@mail.com">Stylehive@mail.com</a>
+                    
+
+                </div>
+            </div>
+            <div class="flex flex-col mt-5 space-y-4 md:text-right md:w-1/2">
+                <h5 class="text-xl font-bold text-white">Follow US</h5>
+                <div class="flex flex-row space-x-3 md:justify-end">
+                    <img src="./img/Instagram.png" alt="">
+                    <img src="./img/Facebook.png" alt="">
+                    <img src="./img/Twitter.png" alt="">
+                    <img src="./img/Pinterest.png" alt="">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container flex flex-col p-4 mx-auto text-center text-white border-t-2 border-t-white">
+            <p>©2023 STYLEHIVE  privacy policy</p>
+        </div>
+    </footer>
+    <script>
+        function toggleAccordion(index) {
+            const content = document.getElementById(`accordion-content-${index}`);
+            content.classList.toggle('hidden');
+            content.classList.toggle('block');
+        
+            const icon = document.querySelector(`#accordion-content-${index} svg`);
+            icon.classList.toggle('rotate-180');
+          }
+
+          const btn = document.getElementById('menu-btn');
+const nav = document.getElementById('menu');
+
+btn.addEventListener('click',()=>{
+    btn.classList.toggle('open');
+    nav.classList.toggle('flex');
+    nav.classList.toggle('hidden');
+})
+    </script>
+</body>
+</html>
